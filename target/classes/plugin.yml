@@ -1,0 +1,14 @@
+name: FunFly
+version: '0.1'
+main: me.chi2l3s.funfly.FunFly
+api-version: '1.16'
+commands:
+  fly:
+    description: Вкл./выкл. режима полета для игрока в Элитрах
+    usage: /<command>
+    permission: funfly.fly
+    permission-message: "Нет доступа к этой команде"
+  funfly:
+    description: Основная команда
+    usage: /<command> <subcommand>
+    permission: funfly.admin
