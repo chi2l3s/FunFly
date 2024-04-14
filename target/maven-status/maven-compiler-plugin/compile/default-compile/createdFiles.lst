@@ -1,7 +1,6 @@
 me\chi2l3s\funfly\commands\FunFlyReloadCommand.class
 me\chi2l3s\funfly\utils\HEXColor.class
 me\chi2l3s\funfly\FunFly.class
+me\chi2l3s\funfly\listeners\PlayerFlyListener.class
 me\chi2l3s\funfly\commands\FlyCommand.class
 me\chi2l3s\funfly\listeners\OnDamageListener.class
-me\chi2l3s\funfly\listeners\PlayerJoinListener.class
-me\chi2l3s\funfly\listeners\ElytraCheckTask.class

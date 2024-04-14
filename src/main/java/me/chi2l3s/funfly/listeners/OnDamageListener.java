@@ -28,9 +28,7 @@ public class OnDamageListener implements Listener {
                 player.setAllowFlight(false);
                 player.sendMessage(HEXColor.message(ChatColor.translateAlternateColorCodes('&', onDamageMessage)));
                 player.setHealth(player.getHealth()-damageAmount);
-                if (player.getHealth() <= damageAmount){
-                    player.setHealth(0);
-                }
+
             }
         }
     }
@@ -45,9 +43,7 @@ public class OnDamageListener implements Listener {
                 player.setAllowFlight(false);
                 player.sendMessage(HEXColor.message(ChatColor.translateAlternateColorCodes('&', onDamageMessage)));
                 player.setHealth(player.getHealth()-damageAmount);
-                if (player.getHealth() <= damageAmount){
-                    player.setHealth(0);
-                }
+
             }
         }
     }
