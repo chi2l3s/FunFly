@@ -1,5 +1,5 @@
 name: FunFly
-version: '0.1'
+version: '0.3'
 main: me.chi2l3s.funfly.FunFly
 api-version: '1.16'
 commands:
